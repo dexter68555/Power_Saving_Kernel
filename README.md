@@ -39,7 +39,7 @@ echo "disable" | sudo tee /proc/<name_of_the_Proc>
 
 Check the current power saving stat
 ```sh
-cat /proc/PowerSaving
+cat /proc/<name_of_the_Proc>
 ```
 
 How to remove the kernel:
