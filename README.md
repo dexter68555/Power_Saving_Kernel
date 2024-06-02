@@ -29,12 +29,12 @@ dmesg | tail
 How to use it:
 Enabling power saving
 ```sh
-echo "enable" | sudo tee /proc/PowerSaving
+echo "enable" | sudo tee /proc/<name_of_the_Proc>
 ```
 
 Disabling power saving
 ```sh
-echo "disable" | sudo tee /proc/PowerSaving
+echo "disable" | sudo tee /proc/<name_of_the_Proc>
 ```
 
 Check the current power saving stat
